@@ -1,0 +1,404 @@
+<!D<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube Clone</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#">
+            <img src="logo.png" alt="Youtube Logo" class="youtube-logo">
+        </a>
+        <form class="search-bar">
+            <input class="search-input" type="search" placeholder="Search" aria-label="Search"/>
+            <button type="submit" class="search-btn">
+                <img src="magnify.svg">
+            </button>
+        </form>
+
+        <div class="menu-icons">
+            <a href="#">
+                <img src="video-plus.svg" alt="Upload Video">
+            </a>
+
+            <a href="#">
+                <img src="apps.svg" alt="Apps">
+            </a>
+
+            <a href="#">
+                <img src="bell.svg" alt="Notification">
+            </a>
+
+            
+            <a href="#">
+                <img class="menu-channel-icon" src="https://yt3.ggpht.com/yti/AJo0G0ncB-c1GCFmf7GPaKckbIeyZry_KVi-yssYw3H6FQ=s88-c-k-c0x00ffffff-no-rj-mo" alt="Your Channel">
+            </a>
+        </div><!--menu-icons-->
+    </header>
+
+    <div class="categories">
+        <section class="category-section">
+            <button class="category active">Tudo</button>
+            <button class="category">Games</button>
+            <button class="category">Programação</button>
+            <button class="category">Música</button>
+            <button class="category">Documentários</button>
+            <button class="category">Filmes</button>
+            <button class="category">LiveStreams</button>
+            <button class="category">Desenhos</button>
+            <button class="category">Vlogs</button>
+            <button class="category">Outros</button>
+        </section><!--category-section-->
+    </div><!--categories-->
+
+    <div class="videos">
+        <section class="video-section">
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="21:34">
+               <img class="thumbnail-image" src="https://i.ytimg.com/vi/_WjsIDpPoE4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLChemy3dQILG_QejVk-LxtATC2wuw" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="#">
+                    <img class="channel-icon" src="https://yt3.googleusercontent.com/1RTHUxm2FgWCieknooIDKJPvvZUE_t23ZbfZVzhR-155ZXGXgPjygLmlPBuJdPtpu61A_TCVTg=s100-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-title">VOLTEI NO LIXÃO DE CARROS EM PLENO 2023...</a>
+                    <a href="#" class="video-channel-name">Vlog do Rodrigão</a>
+
+                    <div class="video-metadata">
+                        <span>144 mil visualizações</span>
+                        •
+                        <span>há 2 semanas</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="10:29">
+               <img class="thumbnail-image" src="https://i.ytimg.com/vi/PMnzKJnRP9Y/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB2ewkyNvWEZuj4Vpucm-APwjYwCQ" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="#">
+                    <img class="channel-icon" src="https://yt3.googleusercontent.com/4dLzfA0fSFhvxONqPMD-LKgvxHcxJJ1XDTfhsYM_JqegCFuQwaq370-1-0Jy6WaiuhI8yQJrzAI=s88-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-title">COMO EXISTE FERRO NESSE MUNDO?</a>
+                    <a href="#" class="video-channel-name">Jukes</a>
+
+                    <div class="video-metadata">
+                        <span>75 mil visualizações</span>
+                        •
+                        <span>há 13 horas</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="43:50">
+               <img class="thumbnail-image" src="https://i.ytimg.com/vi/OtUgra5BtwI/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBu4VMxqeaqmnnnvW__yOQ9j07eFQ" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="#">
+                    <img class="channel-icon" src="https://yt3.ggpht.com/oD5bQbRAmu3us_ySImGbjHbsooGHO9odFU5Q_lW2V_uE3NgGhjlMaZGj2loFpgRk_NO9507pGg=s88-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-title">BK'- Castelos & Ruínas (Álbum Completo)</a>
+                    <a href="#" class="video-channel-name">BK'</a>
+
+                    <div class="video-metadata">
+                        <span>10 mi de visualizações</span>
+                        •
+                        <span>há 6 anos</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="13:23">
+               <img class="thumbnail-image" src="https://i.ytimg.com/vi/lftaA-63Vcs/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAaM42MfU4XtWzCn0A07pajxYdh8Q" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="#">
+                    <img class="channel-icon" src="https://yt3.ggpht.com/DOwHDrnH5l4IYq9yGJ0EhxdctKnQUHgzvzJPUy6m-B8-TMruCi2HcQ4HTh5cT1F-zUnr-oPj=s68-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-title">48 VOZES MEDIANAMENTE BOAS EM UM CARA</a>
+                    <a href="#" class="video-channel-name">whinderssonnunes</a>
+
+                    <div class="video-metadata">
+                        <span>2.3 mi de visualizações</span>
+                        •
+                        <span>há 3 dias</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="14:30">
+               <img class="thumbnail-image" src="https://i.ytimg.com/vi/PY88vwAkAwM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAwgPdEiAcejZy-S0J26DQq9QqFyg" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="#">
+                    <img class="channel-icon" src="https://yt3.ggpht.com/ytc/AMLnZu_r5jv37h5K5dIVDttuR188t0WS0F0fFyQ9UGok3Q=s68-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-title">YOUTUBER PRESO SIMULANDO ASSALTO, BRASIL SAI DE ALIANÇ ...</a>
+                    <a href="#" class="video-channel-name">Planeta Novo</a>
+
+                    <div class="video-metadata">
+                        <span>53 mil visualizações</span>
+                        •
+                        <span>há 6 horas</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="7:39">
+               <img class="thumbnail-image" src="https://i.ytimg.com/vi/kTS5Vtup0Ag/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBaV37x9C0VokC5lO7An-wQCswadg" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="#">
+                    <img class="channel-icon" src="https://yt3.ggpht.com/ytc/AMLnZu8CJ8UIbf6gdU8oUeDIHi5QtBFsvviAzPuZDtJwTA=s68-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-title">O CARA MORTO NA PAREDE EXPLICADO E MAIS PERIGOSO DO QU...</a>
+                    <a href="#" class="video-channel-name">Ei Nerd</a>
+
+                    <div class="video-metadata">
+                        <span>230 mil visualizações</span>
+                        •
+                        <span>há 14 horas</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="11:00">
+               <img class="thumbnail-image" src="https://i.ytimg.com/vi/G8-cpwJrBAI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD_JmWXux1JQMGpOXWYzRNW9-Dgxw" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="#">
+                    <img class="channel-icon" src="https://yt3.ggpht.com/9tU_QOz-oJ7e7O91wNXYw9zNBO0FxSukmFyOHUGa5I2lSGlV5wA-RC5sVKN1zTVSNg1xTkai6g=s68-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-title">Orochi vs Jhony (🥶O DIA QUE OROCHI FOI PARADO) - FINAL-#ReiDoTanque...</a>
+                    <a href="#" class="video-channel-name">Batalha do Tanque</a>
+
+                    <div class="video-metadata">
+                        <span>7.2 mi visualizações</span>
+                        •
+                        <span>há 7 anos</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="8:25">
+               <img class="thumbnail-image" src="https://i.ytimg.com/vi/cMNyi3Gvpds/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCKiFg3Up_aSA3mAjkuxZl61taHrg" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="#">
+                    <img class="channel-icon" src="https://yt3.ggpht.com/WU9PhHQkwFAUZXKTcFochG94ddCrcSB01xpSvO6sPr8unlBzX22QQyX5YpYGtyZKfHAPOJY4=s68-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-title">Need for Speed Underground 3: O Need for Speed que nunca foi lançado! |...</a>
+                    <a href="#" class="video-channel-name">ZX Gaming</a>
+
+                    <div class="video-metadata">
+                        <span>164 mil visualizações</span>
+                        •
+                        <span>há 3 semanas</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+            
+            <!--alterar seções abaixo-->
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="21:34">
+               <img class="thumbnail-image" src="https://i.ytimg.com/vi/_WjsIDpPoE4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLChemy3dQILG_QejVk-LxtATC2wuw" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="#">
+                    <img class="channel-icon" src="https://yt3.googleusercontent.com/1RTHUxm2FgWCieknooIDKJPvvZUE_t23ZbfZVzhR-155ZXGXgPjygLmlPBuJdPtpu61A_TCVTg=s100-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-title">VOLTEI NO LIXÃO DE CARROS EM PLENO 2023...</a>
+                    <a href="#" class="video-channel-name">Vlog do Rodrigão</a>
+
+                    <div class="video-metadata">
+                        <span>144 mil visualizações</span>
+                        •
+                        <span>há 2 semanas</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="10:29">
+               <img class="thumbnail-image" src="https://i.ytimg.com/vi/PMnzKJnRP9Y/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB2ewkyNvWEZuj4Vpucm-APwjYwCQ" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="#">
+                    <img class="channel-icon" src="https://yt3.googleusercontent.com/4dLzfA0fSFhvxONqPMD-LKgvxHcxJJ1XDTfhsYM_JqegCFuQwaq370-1-0Jy6WaiuhI8yQJrzAI=s88-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-title">COMO EXISTE FERRO NESSE MUNDO?</a>
+                    <a href="#" class="video-channel-name">Jukes</a>
+
+                    <div class="video-metadata">
+                        <span>75 mil visualizações</span>
+                        •
+                        <span>há 13 horas</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="43:50">
+               <img class="thumbnail-image" src="https://i.ytimg.com/vi/OtUgra5BtwI/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBu4VMxqeaqmnnnvW__yOQ9j07eFQ" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="#">
+                    <img class="channel-icon" src="https://yt3.ggpht.com/oD5bQbRAmu3us_ySImGbjHbsooGHO9odFU5Q_lW2V_uE3NgGhjlMaZGj2loFpgRk_NO9507pGg=s88-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-title">BK'- Castelos & Ruínas (Álbum Completo)</a>
+                    <a href="#" class="video-channel-name">BK'</a>
+
+                    <div class="video-metadata">
+                        <span>10 mi de visualizações</span>
+                        •
+                        <span>há 6 anos</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="13:23">
+               <img class="thumbnail-image" src="https://i.ytimg.com/vi/lftaA-63Vcs/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAaM42MfU4XtWzCn0A07pajxYdh8Q" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="#">
+                    <img class="channel-icon" src="https://yt3.ggpht.com/DOwHDrnH5l4IYq9yGJ0EhxdctKnQUHgzvzJPUy6m-B8-TMruCi2HcQ4HTh5cT1F-zUnr-oPj=s68-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-title">48 VOZES MEDIANAMENTE BOAS EM UM CARA</a>
+                    <a href="#" class="video-channel-name">whinderssonnunes</a>
+
+                    <div class="video-metadata">
+                        <span>2.3 mi de visualizações</span>
+                        •
+                        <span>há 3 dias</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="14:30">
+               <img class="thumbnail-image" src="https://i.ytimg.com/vi/PY88vwAkAwM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAwgPdEiAcejZy-S0J26DQq9QqFyg" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="#">
+                    <img class="channel-icon" src="https://yt3.ggpht.com/ytc/AMLnZu_r5jv37h5K5dIVDttuR188t0WS0F0fFyQ9UGok3Q=s68-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-title">YOUTUBER PRESO SIMULANDO ASSALTO, BRASIL SAI DE ALIANÇ ...</a>
+                    <a href="#" class="video-channel-name">Planeta Novo</a>
+
+                    <div class="video-metadata">
+                        <span>53 mil visualizações</span>
+                        •
+                        <span>há 6 horas</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="7:39">
+               <img class="thumbnail-image" src="https://i.ytimg.com/vi/kTS5Vtup0Ag/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBaV37x9C0VokC5lO7An-wQCswadg" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="#">
+                    <img class="channel-icon" src="https://yt3.ggpht.com/ytc/AMLnZu8CJ8UIbf6gdU8oUeDIHi5QtBFsvviAzPuZDtJwTA=s68-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-title">O CARA MORTO NA PAREDE EXPLICADO E MAIS PERIGOSO DO QU...</a>
+                    <a href="#" class="video-channel-name">Ei Nerd</a>
+
+                    <div class="video-metadata">
+                        <span>230 mil visualizações</span>
+                        •
+                        <span>há 14 horas</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="11:00">
+               <img class="thumbnail-image" src="https://i.ytimg.com/vi/G8-cpwJrBAI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD_JmWXux1JQMGpOXWYzRNW9-Dgxw" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="#">
+                    <img class="channel-icon" src="https://yt3.ggpht.com/9tU_QOz-oJ7e7O91wNXYw9zNBO0FxSukmFyOHUGa5I2lSGlV5wA-RC5sVKN1zTVSNg1xTkai6g=s68-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-title">Orochi vs Jhony (🥶O DIA QUE OROCHI FOI PARADO) - FINAL-#ReiDoTanque...</a>
+                    <a href="#" class="video-channel-name">Batalha do Tanque</a>
+
+                    <div class="video-metadata">
+                        <span>7.2 mi visualizações</span>
+                        •
+                        <span>há 7 anos</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="8:25">
+               <img class="thumbnail-image" src="https://i.ytimg.com/vi/cMNyi3Gvpds/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCKiFg3Up_aSA3mAjkuxZl61taHrg" />
+            </a>
+            <div class="video-bottom-section">
+                <a href="#">
+                    <img class="channel-icon" src="https://yt3.ggpht.com/WU9PhHQkwFAUZXKTcFochG94ddCrcSB01xpSvO6sPr8unlBzX22QQyX5YpYGtyZKfHAPOJY4=s68-c-k-c0x00ffffff-no-rj" alt="">
+                </a>
+                <div class="video-details">
+                    <a href="#" class="video-title">Need for Speed Underground 3: O Need for Speed que nunca foi lançado! |...</a>
+                    <a href="#" class="video-channel-name">ZX Gaming</a>
+
+                    <div class="video-metadata">
+                        <span>164 mil visualizações</span>
+                        •
+                        <span>há 3 semanas</span>
+                    </div><!--video-metadata-->
+                </div><!--video-details-->
+            </div><!--video-bottom-section-->
+            </article>
+        </section><!--video-section-->
+    </div><!--videos-->
+</body>
+</html>
